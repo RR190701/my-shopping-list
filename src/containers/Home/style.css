@@ -1,0 +1,72 @@
+.home {
+    text-align: center;
+    width: 63%;
+    
+}
+.container {
+    width: 100%;
+    padding: 50PX 0;
+}
+.form {
+    
+    margin-bottom: 40px;
+}
+input[type=text]{
+  width: 80%;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: none;
+  border: solid 0.5px darkred;
+  border-bottom-left-radius: 5pc;
+  border-top-left-radius: 5pc;
+}
+.search-button{
+    background-color: darkred;
+    border: none;
+    padding: 15px 20px;
+    color: white;
+    border-bottom-right-radius: 5pc;
+    border-top-right-radius: 5pc;
+    font-size: 15px;
+    
+}
+.add-button {
+    
+    background-color:lightseagreen;
+    border: none;
+    padding: 0 7px;
+    font-family: 'Tenali Ramakrishna', sans-serif; 
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+.item-container {
+    
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.image-box {
+    width: 110px;
+    box-sizing: border-box;
+    margin: 30px;
+}
+.box-in-box {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.image-box img {
+    max-width: 100%;
+    max-height: 100%;
+    
+    border-radius: 50%;
+}
+.item-name {
+    
+    font-family: 'Sriracha', cursive;
+}

@@ -1,0 +1,21 @@
+.heading {
+    
+    text-align:center;
+    background-color:coral;
+    
+    padding: 25px 0 20px;
+}
+.heading h1{
+    color: darkred;
+    font-family: 'Sriracha', cursive;
+    text-transform: capitalize;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.heading span{
+    
+    color: rgb(216, 48, 48);
+    font-family: 'Tenali Ramakrishna', sans-serif; 
+    font-size: 400;
+}

@@ -1,0 +1,47 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "image":"item-1.jpg",
+            "item-name":"cake",
+            "isAdded": 0
+        },
+        {
+            "id": 2,
+            "image":"item-1.jpg",
+            "item-name":"cake",
+            "isAdded": 0
+        },
+        
+        {
+            "id": 3,
+            "image":"item-1.jpg",
+            "item-name":"cake",
+            "isAdded": 0
+        },
+        
+        {
+            "id": 4,
+            "image":"item-1.jpg",
+            "item-name":"cake",
+            "isAdded": 0
+        },
+        
+        {
+            "id": 5,
+            "image":"item-1.jpg",
+            "item-name":"cake",
+            "isAdded": 0
+        },
+        {
+            "id": 6,
+            "image":"item-1.jpg",
+            "item-name":"cake",
+            "isAdded": 1
+
+        }
+        
+        
+        
+    ]
+}

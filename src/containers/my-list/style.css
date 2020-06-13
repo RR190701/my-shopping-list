@@ -1,0 +1,54 @@
+.my-list {
+    width: 36%;
+    text-align: center;
+}
+.my-list h1{
+    font-family: 'Sriracha', cursive;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: darkred;
+    letter-spacing: 1px;
+    
+    border-top: darkred 2px solid;
+}
+.list-item-count {
+    font-size: 20px;
+    font-family: 'Sriracha', cursive;
+    color: darkred;
+    
+}
+
+.list-item {
+    
+    font-family: 'Sriracha', cursive;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.increment-button, .decrement-button, .delete-button{
+    padding: 0 3px;
+    border: none;
+    font-family: 'Tenali Ramakrishna', sans-serif; 
+    font-size: 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 800;
+}
+.increment-button {
+    background-color: yellow;
+}
+.decrement-button {
+    background-color: orangered;
+    padding: 0 5px;
+}
+.delete-button {
+    background-color:wheat;
+    border: black;
+}
+.total-cost {
+    font-size: 30px;
+    font-family: 'Sriracha', cursive;
+    font-weight: 800;
+    color: darkred;
+}
