@@ -2,6 +2,7 @@
     text-align: center;
     width: 63%;
     
+    
 }
 .container {
     width: 100%;
@@ -11,10 +12,10 @@
     
     margin-bottom: 40px;
 }
-input[type=text]{
+.search-input{
   width: 80%;
   text-decoration: none;
-  padding: 15px 20px;
+  padding: 13px 20px;
   border: none;
   border: solid 0.5px darkred;
   border-bottom-left-radius: 5pc;
@@ -53,7 +54,7 @@ input[type=text]{
 .image-box {
     width: 110px;
     box-sizing: border-box;
-    margin: 30px;
+    margin: 25px;
 }
 .box-in-box {
     width: 100%;

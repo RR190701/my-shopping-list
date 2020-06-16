@@ -11,17 +11,53 @@
     
     border-top: darkred 2px solid;
 }
+.add-item {
+display: flex;
+flex-direction: column;
+text-align: left;
+width: 80%;
+margin: 0 auto;
+}
+
+
+.item-name-to-add, .item-price {
+    border: none;
+    width: 50%;
+    padding-left: 10px;
+    border:  darkgreen solid 2px;
+    font-size: 13px;
+    border-radius: 5px;
+    
+}
+.label {
+    margin: 0;
+padding: 0;
+font-size: 12px;
+color: darkslategray;
+font-weight: 600;
+}
+.add-item-button{
+    width: 75px;
+    border: none;
+    font-size: 13px;
+    margin-top: 5px;
+    color:white ;
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+
 .list-item-count {
     font-size: 20px;
     font-family: 'Sriracha', cursive;
     color: darkred;
+    margin-top: 40px;
     
 }
 
 .list-item {
     
     font-family: 'Sriracha', cursive;
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
     display: flex;
     justify-content: space-evenly;

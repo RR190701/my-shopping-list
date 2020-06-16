@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./style.css";
-
+import 'bootstrap/dist/css/bootstrap.css'
+// import 'bootstrap/dist/js/bootstrap.bundle'
 
 class Home extends Component {
 
@@ -11,7 +12,7 @@ class Home extends Component {
       <div className="home">
         <div className="container">
           <form className="form">
-            <input type="text" placeholder="Find for items"></input>
+            <input type="text" className ="search-input" placeholder="Find for items"></input>
             <button className="search-button" type="submit">
               Search
             </button>
@@ -28,7 +29,7 @@ class Home extends Component {
                 </div>
                 <p className = "item-name">{item.itemName}</p>
                 <button
-                  className="add-button"  disabled = {item.isAdded === "Added"?'disabled':''}
+                  className="add-button"  
                   onClick={() => this.props.handleClick(item)}
                 >
                   {item.isAdded}
